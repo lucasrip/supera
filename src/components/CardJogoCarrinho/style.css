@@ -1,0 +1,125 @@
+
+.jogosAdicionados .jogoNoCarrinho
+{
+  margin: 2rem 0;
+  display: flex;
+  width:100%;
+  height: 15rem;
+}
+.jogosAdicionados .jogoNoCarrinho img
+{
+    width:15rem;
+    height: 15rem;
+    object-fit: contain; 
+    transition:0.5s ease;
+}
+.jogosAdicionados .jogoNoCarrinho .descricao
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+ 
+.jogosAdicionados .jogoNoCarrinho .descricao  div div  span
+{
+  display: flex;
+  margin-right: 15px;
+}
+.jogosAdicionados .jogoNoCarrinho .descricao div > strong
+{
+  font-size: 2rem;
+  font-family: 'Teko','sans-serif';
+  font-weight: bold;
+}
+.jogosAdicionados .jogoNoCarrinho .descricao div>div 
+{
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.jogosAdicionados .jogoNoCarrinho .descricao  div div span strong
+{
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+
+.descricao .opcoes
+{
+  display: flex;
+  width:auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.descricao .opcoes div > input
+{
+  width:3rem;
+  height: 2rem;
+}
+.descricao .opcoes div > svg
+{
+ margin:0 5px;
+}
+.descricao .opcoes a
+{
+ margin-top: 10px;
+ color: black;
+ 
+}
+.descricao .opcoes  a:visited
+{
+ color: black;
+}
+.descricao .opcoes a svg
+{
+ margin-right: 5px; 
+}
+.descricao .opcoes a:hover , .descricao .opcoes div > svg:hover
+{
+  cursor: pointer;
+}
+@media (max-width:540px)
+{
+  .jogosAdicionados .jogoNoCarrinho .descricao  div div  span
+  {
+    flex-direction: column;
+  }
+  .nadaAdicionado strong
+  {
+    font-size: 1.5rem;
+  }
+  .jogosAdicionados .jogoNoCarrinho img
+  {
+   width:10rem;
+   height: 12rem;
+
+  }
+  .jogosAdicionados .jogoNoCarrinho
+  {
+   display: flex;
+   width:100%;
+   height: 10rem;
+  }
+   .jogosAdicionados .jogoNoCarrinho .descricao div > strong
+  {
+    font-size: 1rem;
+  }
+  .descricao .opcoes
+  {
+      flex-direction: column;
+  }
+}
+
+@media (max-width:700px)
+{
+ 
+  .carrinhoContainer
+  {
+  flex-direction: column;
+  }
+ 
+}

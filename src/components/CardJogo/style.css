@@ -1,0 +1,89 @@
+.cardJogo
+{
+    position:relative;
+    display: flex;
+    width:16rem;
+    height: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:2rem 0.5rem;
+    text-align: center;
+   
+}
+.cardJogo img
+{
+    width:17rem;
+    height: 16rem;
+    object-fit: contain; 
+    transition:0.5s ease;
+}
+.cardJogo div ,.cardJogo div span
+{
+    display: flex;
+    justify-content: center;
+}
+
+.cardJogo > strong
+{
+    width:100%;
+    margin-top: 0.7rem;
+    font-family: 'Teko','sans-serif';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.cardJogo div span strong
+{
+    margin: 0 0.5rem;
+}
+.cardJogo:hover
+{
+    cursor:pointer;
+    
+}
+.cardJogo span a
+{
+    display: flex;
+    margin-right:5px;
+    color: black;
+}
+.cardJogo span a:visited
+{
+    color: black;
+}
+.cardJogo span a:hover
+{
+    color: green;
+}
+.capaComprar
+{
+    position: absolute;
+    top: -5px;
+    width:95%;
+    height: 86%;   
+}
+
+.cardJogo .capaComprar:hover 
+{
+background: radial-gradient( rgba(31, 31, 31, 0.049), rgb(0, 0, 0)) no-repeat, url('../../icons/adicionaCarrinho.svg') no-repeat;
+background-size: 100%,100px 100px;
+background-position: center center;
+}
+
+.cardJogo .score
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    color: #FFFF;
+    background-color: #11dd11;
+    text-align: center;
+    box-shadow: 0px 0px 10px #12af12;
+  
+}

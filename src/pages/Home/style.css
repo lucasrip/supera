@@ -1,0 +1,46 @@
+.homeContainer , .jogosContainer
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top:2rem;
+    width: 100%;
+}
+.homeContainer
+{
+   
+    align-items: center;
+    justify-content:flex-end ;
+}
+
+.homeContainer h1
+{ 
+    text-align: center;
+    font-family: 'Teko','sans-serif';
+    font-weight: bold;
+   flex: 1;
+}
+.homeContainer select
+{ 
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    font-family: Roboto,'sans-serif';
+    font-weight: bold;
+    margin-right: 10px;
+}
+.homeContainer select optgroup
+{
+    font-size: 1rem;
+}
+
+@media (max-width:500px)
+{
+    .homeContainer h1
+    {
+      font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,59 @@
+.menuContainer
+{
+    display: flex;
+    flex:1;
+    height: 7.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1.5rem;
+}
+.menuContainer img
+{
+    width:9rem;
+    height: 6rem;
+}
+
+.menuContainer a:first-child
+{
+    display: flex;
+    align-items: center;
+    height:1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.menuContainer a:hover ,.iconeCarrinho:hover
+{
+    cursor: pointer;
+}
+.menuContainer a:visited ,.iconeCarrinho:visited
+{
+    color: black;
+}
+
+.iconeCarrinho
+{
+    display: flex;
+    
+    width:4.5rem;
+    align-items: flex-end;
+    height: 4.7rem;
+    position: relative;
+}
+.iconeCarrinho span
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    width:1.8rem;
+    height:1.8rem;
+    border-radius: 55%;
+    color: #FFFF;
+    font-weight: bold;
+    background-color: #000000;
+    text-align: center;
+
+}
